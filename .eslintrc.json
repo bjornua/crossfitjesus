@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "standard"
+  ],
+  "parser": "babel-eslint",
+  "plugins": [
+    "import",
+    "node",
+    "promise",
+    "standard"
+  ],
+  "rules": {
+    "strict": 0,
+    "comma-dangle": ["error", "always-multiline"],
+    "space-before-function-paren": ["error", "never"]
+},
+  "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "impliedStrict": true,
+      "ecmaFeatures": {
+      }
+  },
+  "globals": {
+    "fetch": true,
+    "alert": true
+  }
+}

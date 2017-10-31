@@ -1,0 +1,15 @@
+{
+  "folders":
+  [
+    {
+      "path": ".",
+      "file_exclude_patterns": [
+        "yarn-error.log",
+      ],
+      "folder_exclude_patterns": [
+        "node_modules",
+      ],
+      "follow_symlinks": false,
+    }
+  ],
+}

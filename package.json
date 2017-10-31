@@ -1,0 +1,19 @@
+{
+  "name": "crossfitjesus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bjornua/crossfitjesus",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@slack/client": "^3.14.1",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.5.0",
+    "eslint-config-standard": "^7.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "immutable": "^3.8.2"
+  }
+}
